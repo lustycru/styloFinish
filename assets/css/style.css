@@ -1,0 +1,43 @@
+* {
+    font-family: "Inter", sans-serif;
+    transition: 0.3s;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 48px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    animation: own 1s infinite;
+}
+
+@keyframes own {
+    0% { text-shadow: 0 0 1px #9f6ca571, 0 0 0px #9f6ca571, 0 0 1px #9f6ca571, 0 0 2px #9f6ca571, 0 0 8px #9f6ca571, 0 0 4px #9f6ca571, 0 0 12px #9f6ca571, 0 0 30px #9f6ca571; }
+    50% { text-shadow: 0 0 4px #9f6ca571, 0 0 1px #9f6ca571, 0 0 5px #9f6ca571, 0 0 9px #9f6ca571, 0 0 24px #9f6ca571, 0 0 8px #9f6ca571, 0 0 44px #9f6ca571, 0 0 65px #9f6ca571; } 
+    100% { text-shadow: 0 0 1px #9f6ca571, 0 0 0px #9f6ca571, 0 0 1px #9f6ca571, 0 0 2px #9f6ca571, 0 0 8px #9f6ca571, 0 0 4px #9f6ca571, 0 0 12px #9f6ca571, 0 0 30px #9f6ca571; }
+}   
+
+button, input {
+    border: none;
+    background-color: #c6cfd11e;
+    backdrop-filter: blur(3px);
+    border-radius: 4px;
+    border: 1px rgba(159, 108, 165, 0.396) solid;
+    box-shadow: rgba(159, 108, 165, 0.318) 0px -2px 18px 1px inset;
+    font-size: 18px;
+    padding: 14px 18px;
+    cursor: pointer;
+    color: rgb(255, 255, 255, 0.3);
+    margin-bottom: 18px;
+    width: 30%;
+    text-align: left;
+}
+
+input {
+    cursor: initial;
+}
+
